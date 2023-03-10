@@ -45,7 +45,7 @@ const ChatbotPage = () => {
         <>
             <div id='chatbot_wrapper'>
                 <ChatbotHeader />
-                <ChatbotSearchBar chatbotSearchName={chatbotSearchName} setCheckState={setCheckState} setChatbotSearchName={setChatbotSearchName} />
+                <ChatbotSearchBar chatbotSearchName={chatbotSearchName} setChatbotParam={setChatbotParam} setChatbotSearchName={setChatbotSearchName} />
                 <ChatbotList setCheckState={setCheckState} setChatbotParam={setChatbotParam} searched={searched} />
             </div>
             <ChatbotStart chectState={chectState} chatbotParam={chatbotParam} />
