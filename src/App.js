@@ -16,14 +16,18 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route exact path='/' element={<MainPage />} />
-          <Route exact path='/chatbot' element={<ChatbotPage />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <>
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route exact path='/' element={<MainPage />} />
+            <Route exact path='/chatbot' element={<ChatbotPage />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+
+      <div className='alert'>This program is a mobile website. Please connect to the mobile environment.</div>
+    </>
   );
 }
 

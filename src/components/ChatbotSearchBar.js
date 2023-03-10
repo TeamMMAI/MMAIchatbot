@@ -1,14 +1,10 @@
 import React from 'react';
 import "../styles/components/ChatbotSearchBar.css";
 
-const ChatbotSearchBar = ({chatbotSearchName, setChatbotParam, setChatbotSearchName}) => {
+const ChatbotSearchBar = ({setCheckState, setChatbotSearchName}) => {
 
     const onSearch = (e) => {
         setChatbotSearchName(e.target.value.toLowerCase());
-    }
-
-    if (chatbotSearchName) {
-        setChatbotParam();
     }
 
     return (

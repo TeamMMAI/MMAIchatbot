@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ChatbotHeader from '../components/ChatbotHeader';
 import ChatbotList from '../components/ChatbotList';
 import ChatbotSearchBar from '../components/ChatbotSearchBar';
@@ -41,11 +41,18 @@ const ChatbotPage = () => {
 
     const searched = chatbots.filter((item) => item.name.toLowerCase().includes(chatbotSearchName))
 
+    useEffect(() => {
+        setChatbotParam("");
+        setCheckState(false);
+    }, [chatbotSearchName])
+
+    console.log(chatbotParam)
+
     return (
         <>
             <div id='chatbot_wrapper'>
                 <ChatbotHeader />
-                <ChatbotSearchBar chatbotSearchName={chatbotSearchName} setChatbotParam={setChatbotParam} setChatbotSearchName={setChatbotSearchName} />
+                <ChatbotSearchBar chatbotSearchName={chatbotSearchName} setChatbotSearchName={setChatbotSearchName} />
                 <ChatbotList setCheckState={setCheckState} setChatbotParam={setChatbotParam} searched={searched} />
             </div>
             <ChatbotStart chectState={chectState} chatbotParam={chatbotParam} />
