@@ -2,22 +2,21 @@
   .App {
       display: none;
   }
+  .alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    font-size: 2vw;
+  }
 }
 
 @media (max-width : 750px) {
   .alert {
       display: none;
   }
-}
-
-.alert {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 100vh;
-  margin: 0 auto;
-  font-size: 2vw;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
