@@ -1,0 +1,28 @@
+.chat_start, .chat_not {
+    height: 10vh;
+    position : relative;
+    transform : translateY(-100%);
+}
+
+
+.chat_start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5vw;
+    font-weight: 500;
+    width: 100%;
+    color: #ffffff;
+    background-color: #111111;
+}
+
+.chat_not {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5vw;
+    font-weight: 500;
+    width: 100%;
+    color: #ffffff;
+    background-color: #999999;
+}

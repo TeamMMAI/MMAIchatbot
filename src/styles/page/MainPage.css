@@ -1,0 +1,33 @@
+.main_container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.main_img {
+    width: 100%;
+    height: 100%;
+}
+
+.chatbot_start_box {
+    position: absolute;
+    width: 87%;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}
+
+.chatbot_start {
+    height: 8vh;
+    font-size: 4.5vw;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbot_start:hover {
+    cursor: pointer;
+    filter: brightness(60%); 
+}

@@ -1,0 +1,30 @@
+.chatbot_item {
+    width: 46%;
+    margin-bottom: 8%;
+    text-align: center;
+    background-color: #f7f7fb;
+}
+
+.checkbox {
+    text-align: right;
+}
+
+.bot_info {
+    padding: 10%;
+    
+}
+
+.bot_info img {
+    width: 55%;
+}
+
+.bot_name {
+    margin: 8% 0 4% 0;
+    font-size: 4.3vw;
+    font-weight: bolder;
+}
+
+.bot_introduction {
+    font-size: 3.3vw;
+    color: #767676;
+}
