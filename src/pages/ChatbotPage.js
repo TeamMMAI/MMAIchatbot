@@ -11,22 +11,22 @@ const ChatbotPage = () => {
         {
             name : "LOGAN",
             introduction : "I'm AI specializing in Metaverse.",
-            profil : <img src="./images/img/profil.png" alt='chatbot profil' />
+            profil : <img src="./images/img/profil.webp" alt='chatbot profil' />
         }, 
         {
             name : "LINGUIST",
             introduction : "I'm AI specializing in Metaverse.",
-            profil : <img src="./images/img/profil.png" alt='chatbot profil' />
+            profil : <img src="./images/img/profil.webp" alt='chatbot profil' />
         }, 
         {
             name : "ECHO",
             introduction : "I'm AI specializing in Metaverse.",
-            profil : <img src="./images/img/profil.png" alt='chatbot profil' />
+            profil : <img src="./images/img/profil.webp" alt='chatbot profil' />
         },
         {
             name : "MINGLE",
             introduction : "I'm AI specializing in Metaverse.",
-            profil : <img src="./images/img/profil.png" alt='chatbot profil' />
+            profil : <img src="./images/img/profil.webp" alt='chatbot profil' />
         }
     ]
 
